@@ -55,27 +55,27 @@ footer{
 
 #footer_contenedora{
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    text-align: center;
     align-items: flex-end;
-
+    
 }
 
 .menu_footer{
+    text-align: center;
+    padding-right: 60px;
     display: flex;
     flex-direction: column;
-    padding-right: 50px;
-    text-align: center;
+    gap: 10px;
+
 }
 
 .arrows_footer{
     color: white;
 }
 
-#logo-footer{
-    display: flex;
-    align-items: flex-end;
+.logo-footer img{
+    zoom: 0.4;
+
 }
 
 .scroll_up{
@@ -125,6 +125,7 @@ footer{
 }
 
 .name-container h1{
+    display: block;
     padding-bottom: 40px;
     line-height: 100px;
     margin-left: 70px; 
@@ -157,6 +158,8 @@ footer{
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .boton_estrella img{
@@ -169,14 +172,15 @@ footer{
 
 .boton_estrella_contenedora{
     position: relative;
-    text-align: left;
-    color: white;
+
 }
 
 .link-btn{
     position: absolute;
-    top: 47%;
-    left: 110px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
     text-align: center;
     font-weight: bold;
 }
@@ -247,12 +251,13 @@ hr{
 
 .texto_mywork{
     font-weight: light;
-    font-size: 10px;
+    font-size: 15px;
     display: flex;
     justify-content: flex-end;
-    padding-right: 80px;
+    padding-right: 140px;
     padding-top: 20px;
     padding-bottom: 30px;
+    margin-left: 500px;
 }
 
 a:hover{
@@ -313,16 +318,13 @@ a:hover{
 
 .boton_estrella2_contenedora{
     position: relative;
-    text-align: left;
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 .link-btn2{
     position: absolute;
-    top: 47%;
-    left:130px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     font-weight: bold;
 }
@@ -345,11 +347,7 @@ a:hover{
     max-width: 100%;
 }
 
-.titulo1{
-    position: absolute;
-    top: 76%;
-    left: 48%;
-    transform: translate(-50%, -50%);
+.titulo1 h1{
     font-size: 100px;
     font-weight:400;
 }
@@ -357,14 +355,19 @@ a:hover{
 .aboutme-contenedora{
     display: grid;
     grid-template-columns: 50% 50%;
-    padding-bottom: 40px;
+}
+
+.texto-about-contenedora{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .texto-about{
-    align-self: end;
-    font-size: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    font-size: 15px;
+    padding-inline: 60px;
 }
 
 .titulo4{
@@ -435,9 +438,23 @@ a:hover{
     width: 100%;
 }
 
-.textos-contenedora{
+.texto1, .texto2{
+    font-size: 13pt;
+    line-height: 18pt;
+
+}
+
+.titulo-exp{
+    font-size: 60px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.textos-row-container{
     display: flex;
-    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .courses{
@@ -469,6 +486,7 @@ a:hover{
     font-size: 20px;
     font-weight: bold;
 }
+
 
 .titulo-projects h1{
     color: white;
@@ -817,9 +835,15 @@ a:hover{
     margin-left: 200px;
 
 }
+.services2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin-right: 200px;
+}
 
 .textos-services{
-    font-size: 10pt;
+    font-size: 12pt;
 }
 
 .btn-services-contenedora{
@@ -828,12 +852,41 @@ a:hover{
     color: white;
 }
 
-.btn-services-link{
+.btn-services-link1{
+    position: absolute;
+    top: 47%;
+    left: 120px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.btn-services-link3{
     position: absolute;
     top: 47%;
     left: 150px;
     text-align: center;
     font-weight: bold;
+    font-size: 30px;
+}
+.btn-services-link2{
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.btn-services-link4{
+    position: absolute;
+    top: 49%;
+    left: 120px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.services-description-contenedora{
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 /*WORK WITH ME*/
@@ -881,14 +934,401 @@ a:hover{
 .contact-form{
     border: solid #6000fd;
     border-radius: 15px;
-    width: 200px;
-    height: 250px;
+    width: 260px;
+    height: 360px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
+
+.btn-submit{
+    color: #6000fd;
+}
+
+/*MOBILE*/
+
+.about-me-home-mobile{
+    display: none;
+}
+
+.nav-list{
+    display: none;
+}
+.name-container-mobile{
+    display: none;
+}
+.services-mobile{
+    display: none;
+}
+
+.mobile-menu-container{
+    display: none;
+}
+.about-me-mobile-container{
+    display: none;
+}
+.adobe-contenedora-mobile{
+    display: none;
+}
+.pl-contenedora-mobile{
+    display: none;
+}
+.experience-mobile{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+
+
+/* RESPONSIVE STYLES*/
+/*HOME*/
+@media screen and (max-width: 480px) {
+    .menu-bar{
+        display: none;
+    }
+    .menu-toggle {
+        display: block;
+    }
+
+    .titulo-princiapal h1{
+        font-size: 80px;
+        font-weight: 400;
+    }
+
+    .name-container{
+        display: none;
+    }
+    .name-container-mobile{
+        display: block;
+    }
+    .arrows-down-white-mobile{
+        zoom: 0.5;
+        margin-right: 140px;
+    }
+    .nombre1-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .nombre-1{
+        margin-left: 50px;
+    }
+    .nombre2{
+        text-align: right;
+    }
+    .nombre-2{
+        text-align: right;
+    }
+    .nombre2-arrows-container{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 30px;
+    }
+    .nombre-3{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .nombre2-container{
+        margin-right: 40px;
+        padding-bottom: 20px;
+    }
+    .texto_contenedora{
+        font-size: 10pt;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .about-me-home{
+        display: none;
+    }
+    .btn-know-more a{
+    gap: 10px;
+    background-color: #6000fd;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding: 10px 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    }
+    .about-me-home-mobile{
+        position: relative;
+        display: inline-block;
+    }
+    .texto_mywork{
+        display: none;
+    }
+    .mywork_contenedora{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .services{
+        display: none;
+    }
+    .services-list{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        font-weight: bold;
+        text-align: center;
+        gap: 15px;
+    }
+    .services-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .arrows-down-purple-mobile{
+        zoom: 0.6;
+    }
+    .line-outline{
+        border: solid black;
+        border-radius: 20px;
+        border-width: 1.5px;
+        padding-left:100px;
+        padding-right: 100px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .solid-background{
+        color: white;
+        background-color: black;
+        border:solid black;
+        border-radius: 20px;
+        padding-left:100px;
+        padding-right: 100px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .titulo3{
+        text-align: center;
+        margin-right: 70px;
+    }
+    .btn-services{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 10pt;
+    }
+    .arrow{
+        zoom:0.6
+    }
+    .arrow-and-btn{
+        align-items: center;
+        margin-left: 40px;
+    }
+    .arrows_right{
+        zoom:0.7;
+    }
+    .arrows_left{
+        zoom: 0.7;
+    }
+    .image-item2{
+        zoom: 0.7;
+    }
+    .workwithme_contenedora{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .menu-footer-contenedora{
+        display: none;
+    }
+    .logo-footer{
+        zoom: 0.6;
+    }
+    .mobile-menu-toggle{
+        color: white;
+        margin-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        zoom:1.5;
+    }
+    .mobile-menu{
+        background-color: black;
+        position: sticky;
+        
+    }
+    .nav-menu {
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: 200px;
+        background-color: black;
+        text-align: center;
+        z-index: 1000;
+        padding-top: 50px;
+    }
+    .menu-list {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+    .nav-menu {
+        display: none;
+    }
+    
+    .nav-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    
+    .nav-menu li {
+        margin-right: 20px;
+    }
+    
+    .nav-menu a {
+        text-decoration: none;
+        color: #fff;
+    }
+    .nav-menu a:hover{
+        text-decoration: underline;
+    }
+    
+    .mobile-menu-toggle {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+
+/*ABOUT ME MOBILE*/
+
+    .aboutme-contenedora{
+        display: none;
+
+    }
+    .image-about-me img{
+        max-width: 100%;
+        aspect-ratio: 2/5;
+        object-fit: cover;
+    }
+    .titulo-about{
+        font-size: 80px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .about-me-mobile-container{
+        display: block;
+    }
+    .titulo-and-arrows{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 54%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        gap: 70px;
+    }
+    .image-and-title{
+        position: relative;
+        text-align: center;
+    }
+    .arrows-down{
+        zoom: 0.6;
+    }
+
+    .texto-about-mobile{
+        font-size: 11pt;
+        line-height: 14pt;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .adobe-contenedora{
+        display: none;
+    }
+    .pl-contenedora{
+        display: none;
+    }
+    .titulo4-mobile{
+        font-size: 20px;
+        text-align: center;
+        border: solid #6000fd;
+        border-radius: 50px;
+        width: 300px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .pl-titulo{
+        width:350px ;
+    }
+    .ap-contenedora-mobile{
+        display: flex;
+        justify-content: center;
+    }
+    .bar-levels-mobile{
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 40px;
+
+    }
+    .pl-bars{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .skills{
+        padding-bottom: 20px;
+    }
+    .experience{
+        display: none;
+    }
+    .experience-mobile{
+        background-color: black;
+        display: block;
+    }
+    .titulo3-mobile{
+        font-size: 40px;
+        text-align: center;
+    }
+    .arrows-down-left{
+        zoom: 0.5;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .tc-contenedora{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: left;
+    }
+    .textos-contenedora{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-bottom: 70px;
+    }
+
+
+
+
+}
+    
 
 
 
