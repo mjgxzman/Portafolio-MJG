@@ -66,7 +66,6 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 10px;
-
 }
 
 .arrows_footer{
@@ -1260,8 +1259,15 @@ a:hover{
     .adobe-contenedora{
         display: none;
     }
+    .adobe-contenedora-mobile{
+        display: block;
+    }
+
     .pl-contenedora{
         display: none;
+    }
+    .pl-contenedora-mobile{
+        display: block;
     }
     .titulo4-mobile{
         font-size: 20px;
