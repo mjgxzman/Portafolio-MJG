@@ -4,6 +4,8 @@
         <!--se enlaza hoja de estilo-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Hello, I'm Maria Jose Guzman and I'm a graphic designer based in El Salvador. I specialize in projects related to web and editorial design, as well as in branding and social media.">
+        <meta name="keywords" content="graphic design,brand identity, branding, web design, portfolio, social media design, social media content, editorial design, visual communication, website development">
         <title>Maria Jose Guzman</title> 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
         <link rel="stylesheet" href="../css/style.css">
@@ -29,6 +31,18 @@
             </nav>
         </div>
         </section>
+        <section class="mobile-menu">
+            <div class="mobile-menu-toggle">&#9776;</div>
+        <nav class="nav-menu">
+            <ul class="menu-list">
+                <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../pages/aboutme.html">ABOUT ME</a></li>
+                    <li><a href="../pages/projects.html">PROJECTS</a></li>
+                    <li><a href="../pages/services.html">SERVICES</a></li>
+                    <li><a href="../pages/workwithme.html">WORK WITH ME</a></li>
+            </ul>
+        </nav>
+        </section>
     </header>
     <main>
         <section id="workwithme-main">
@@ -41,16 +55,52 @@
                 </div>
             </article>
         </section>
+        <section id="workwithme-main-mobile">
+            <article class="workwithme-contenedora-mobile">
+                <div class="workwithme-titulo-mobile">
+                    <div class="titulo1-work">
+                        <h1>WORK WITH</h1>
+                    </div>
+                    <div class="titulo2-work">
+                        <h1>ME</h1>
+                    </div>
+                </div>
+                <div class="arrows-down-white-mobile">
+                    <img src="../images/fotos projects/arrows down white.svg" alt="arrows white down">
+                </div>
+            </article>
+        </section>
         <section>
             <div class="content-workwithme">
                 <article class="subtitle-contenedora">
-                    <div class="subtitle1">
-                        <h3>LET'S GET</h3>
+                    <div class="subtitle1 text-wave2">
+                        <span>L</span>
+                        <span>E</span>
+                        <span>T</span>
+                        <span>'</span>
+                        <span>S</span>
+                        <span>&nbsp;</span>
+                        <span>G</span>
+                        <span>E</span>
+                        <span>T</span>
+                        
                     </div>
-                    <div class="subtitle2">
-                        <h3>IN TOUCH!</h3>
+                    <div class="subtitle2 text-wave2">
+                        <span>I</span>
+                        <span>N</span>
+                        <span>&nbsp;</span>
+                        <span>T</span>
+                        <span>O</span>
+                        <span>U</span>
+                        <span>C</span>
+                        <span>H</span>
+                        <span>!</span>
+                        
                     </div>
                 </article>
+                <div class="wave-line-work-mobile">
+                    <img src="../images/wetransfer_frame-4-svg_2023-10-28_0032/FIGMA ELEMENTS MJ-01.svg" alt="wave line">
+                </div>
                 <article class="contact-form">
                     <div class="contact-info-ind">
                         <form action="submit_form.php">
@@ -87,7 +137,7 @@
     <footer> <!--pie de pagina-->
         <div id="footer_contenedora">
             <div class="logo-footer"> <!--LOGO-->
-                <a href="index.html">
+                <a href="../index.html">
                     <img src="../images/fotos home/MJ LOGO-03.png" alt="logo">
             </div>
             <nav class="menu-footer-contenedora"> <!--menu//links-->
@@ -117,5 +167,15 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+            var navMenu = document.querySelector('.nav-menu');
+    
+            mobileMenuToggle.addEventListener('click', function () {
+                navMenu.style.display = navMenu.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
 </body>
 </html>

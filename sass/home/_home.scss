@@ -1,0 +1,257 @@
+/*HOME*/
+
+.main-page{
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.titulo-princiapal{
+    color: white;
+    text-align: center;
+    font-size: 120px;
+}
+
+.nombre1{
+    display: block;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.nombre3{
+    display: block;
+    text-align: left;
+    padding-left: 200px;
+}
+
+.name-container h1{
+    display: block;
+    padding-bottom: 40px;
+    line-height: 100px;
+    margin-left: 70px; 
+    font-weight: 400; 
+}
+
+.scroll-down{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+
+.arrows-white{
+    color: white;
+}
+
+.scroll-down-contenedora{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.texto_contenedora{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.boton_estrella img{
+    max-width: 20%;
+}
+.boton_estrella img:hover{
+    transform: rotate(180deg);
+    transition: 2s;
+}
+
+.boton_estrella_contenedora{
+    position: relative;
+
+}
+
+.link-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#foto-yo{
+    max-width: 100%;
+    display: flex;
+    justify-self: center;
+}
+
+#foto-yo img{
+    max-width: 80%;
+    height: auto;
+}
+
+.wave-line img{
+    max-width: 100%;
+}
+
+.about-me-home{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.image-item{
+    text-align: center;
+}
+
+.image-item img{
+    max-width: 80%;
+    height: auto;
+}
+
+.titulo2 img{
+max-width: 100%;
+}
+
+hr{
+    border: none;
+    border-top: 3px solid #6000fd;
+    margin: 10px 0;
+    max-width: 100%;
+}
+
+#foto-work img{
+    max-width: 80%;
+}
+
+#foto-work{
+    text-align: center;
+}
+
+.boton_cuadrado1{
+    gap: 10px;
+    background-color: #6000fd;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding: 10px 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+
+}
+
+.mywork_contenedora{
+    position: relative;
+    display: inline-block;
+}
+
+.texto_mywork{
+    font-weight: light;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 140px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 500px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#logo-footer img{
+    max-width: 30%;
+}
+
+.titulo3{
+    font-size: 40px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+
+.services img{
+    max-width: 80%;
+}
+
+.services{
+    text-align: center;
+}
+
+
+
+.arrow img{
+    zoom: 0.7; 
+}
+
+.btn-services{
+    background-color: #6000fd;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    width: 130px;
+    height: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-and-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 90px;
+}
+
+.boton_estrella2 img{
+    max-width: 80%;
+}
+.boton_estrella2{
+    text-align: center;
+}
+.boton_estrella2 img:hover{
+    transform: rotate(180deg);
+    transition: 2s;
+}
+
+.boton_estrella2_contenedora{
+    position: relative;
+}
+
+.link-btn2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+}
+
+.workwithme_contenedora{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    align-items: center;
+    text-align: center;
+}
+
+.arrows-footer{
+    color: #6000fd;
+    zoom: 2;
+}

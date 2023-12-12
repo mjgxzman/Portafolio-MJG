@@ -1,0 +1,46 @@
+/*HEADER*/
+#menu_contenedora{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    header nav ul li{
+        display: inline-block;
+    }
+    .menu{
+        list-style:none;
+        font-family: helvetica;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    header{
+        background-color: black;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    
+    nav ul li{
+        list-style: none;
+    }
+    
+    .logo{
+        zoom: 0.3;
+    }
+    
+    .logo img:hover{
+        transform: rotate(-20deg);
+    }
+    

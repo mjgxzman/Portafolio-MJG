@@ -1,0 +1,115 @@
+/*SERVICES*/
+
+#services-main{
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.titulo-services h1{
+    color: white;
+    font-size: 300px;
+    line-height: 200pt;
+    font-weight: 400;
+}
+
+.services-titulo-contenedora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.titulo-services1{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 50px;
+}
+
+.titulo-services2{
+    margin-left: 200px;
+}
+
+.btn-services-image img{
+    max-width: 80%;
+}
+
+.btn-estrella-services img:hover{
+    transform: rotate(180deg);
+    transition: 2s;
+}
+
+.btn-triangulo img:hover{
+    transform: rotate(-15deg);
+    transition: 0.5s;
+}
+
+.btn-cuadrado img:hover{
+    transform: rotate(-30deg);
+    transition: 0.5s;
+}
+
+.btn-circulo img:hover{
+    transform: scale(1.2, 1.2);
+}
+
+.services1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin-left: 200px;
+
+}
+.services2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.textos-services{
+    font-size: 12pt;
+}
+
+.btn-services-contenedora{
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.btn-services-link1{
+    position: absolute;
+    top: 47%;
+    left: 120px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.btn-services-link3{
+    position: absolute;
+    top: 47%;
+    left: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.btn-services-link2{
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.btn-services-link4{
+    position: absolute;
+    top: 49%;
+    left: 120px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.services-description-contenedora{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}

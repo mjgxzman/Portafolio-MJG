@@ -4,6 +4,8 @@
         <!--se enlaza hoja de estilo-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Hello, I'm Maria Jose Guzman and I'm a graphic designer based in El Salvador. I specialize in projects related to web and editorial design, as well as in branding and social media.">
+        <meta name="keywords" content="graphic design,brand identity, branding, web design, portfolio, social media design, social media content, editorial design, visual communication, website development">
         <title>Maria Jose Guzman</title> 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
         <link rel="stylesheet" href="./css/style.css">
@@ -13,13 +15,13 @@
         <section class="menu-bar">
             <div id="menu_contenedora">
             <div class="logo"> <!--LOGO-->
-                <a href="index.html">
+                <a href="#scroll-up">
                 <img src="./images/fotos home/MJ LOGO-03.png" alt="logo">
             </div>
 
             <nav class="main_nav"> <!--menu//links-->
                 <ul class="menu">
-                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#scroll-up">HOME</a></li>
                     <li><a href="./pages/aboutme.html">ABOUT ME</a></li>
                     <li><a href="./pages/projects.html">PROJECTS</a></li>
                     <li><a href="./pages/services.html">SERVICES</a></li>
@@ -32,7 +34,7 @@
             <div class="mobile-menu-toggle">&#9776;</div>
         <nav class="nav-menu">
             <ul class="menu-list">
-                <li><a href="index.html">HOME</a></li>
+                <li><a href="#scroll-up">HOME</a></li>
                     <li><a href="./pages/aboutme.html">ABOUT ME</a></li>
                     <li><a href="./pages/projects.html">PROJECTS</a></li>
                     <li><a href="./pages/services.html">SERVICES</a></li>
@@ -42,7 +44,7 @@
         </section>
     </header>
     <main> <!--estructura 2 // MAIN SECTIONS-ARTICLES-DIVS-ASIDES-->
-        <section class="main-page">
+        <section class="main-page" id="scroll-up">
             <article class="name-container">
                 <div class="titulo-princiapal nombre1">
                     <h1>HELLO, I'M</h1>
@@ -117,7 +119,7 @@
                         <a href="./pages/aboutme.html">CLICK TO KNOW <br>MORE ABOUT ME!</a>
                     </div>
                 </div>
-                <div id="foto-yo" class="image-item">
+                <div id="foto-yo">
                     <img src="./images/fotos home/IMG_3546-2-Edit.jpg" alt="foto yo">
                 </div>
             </article>
@@ -144,18 +146,13 @@
                     <a href="./pages/projects.html">SHOW ME MORE!</a>
                 </div>
             </article>
-            <div class="texto_mywork">
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum blanditiis alias aperiam distinctio rem quod sequi dolor exercitationem corrupti fuga facere explicabo nam tempora 
-                </p>
-            </div>
 
             <div class="wave-line">
                 <img src="./images/wetransfer_frame-4-svg_2023-10-28_0032/FIGMA ELEMENTS MJ-01.svg" alt="wave line">
             </div>
         </section>
         <section>
-            <div class="titulo3">
+            <div class="titulo3 animated-text">
                 <h3>SERVICES</h3>
             </div>
         <div class="services-contenedora">
@@ -238,12 +235,12 @@
     <footer> <!--pie de pagina-->
         <div id="footer_contenedora">
             <div class="logo-footer"> <!--LOGO-->
-                <a href="index.html">
+                <a href="#scroll-up">
                     <img src="./images/fotos home/MJ LOGO-03.png" alt="logo">
             </div>
             <nav class="menu-footer-contenedora"> <!--menu//links-->
                 <ul class="menu_footer">
-                    <li><a href="index.html">HOME</a></li> <!--# sirve para redirigir a tu pagina si aun no hay link-->
+                    <li><a href="#scroll-up">HOME</a></li> <!--# sirve para redirigir a tu pagina si aun no hay link-->
                     <li><a href="./pages/aboutme.html">ABOUT ME</a></li>
                     <li><a href="./pages/projects.html">PROJECTS</a></li>
                     <li><a href="./pages/services.html">SERVICES</a></li>
@@ -252,7 +249,7 @@
             </nav>
             <div class="scroll_up">
                 <div class="container-scroll">
-                    <a href="index.html">scroll up</a>   
+                    <a href="#scroll-up">scroll up</a>   
                     <div class="arrows_up">
                         <a href="index.html"><span class="material-symbols-outlined arrows_footer">
                             arrow_upward_alt

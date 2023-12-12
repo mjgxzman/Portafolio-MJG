@@ -4,6 +4,8 @@
         <!--se enlaza hoja de estilo-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Hello, I'm Maria Jose Guzman and I'm a graphic designer based in El Salvador. I specialize in projects related to web and editorial design, as well as in branding and social media.">
+        <meta name="keywords" content="graphic design,brand identity, branding, web design, portfolio, social media design, social media content, editorial design, visual communication, website development">
         <title>Maria Jose Guzman</title> 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
         <link rel="stylesheet" href="../css/style.css">
@@ -29,9 +31,21 @@
             </nav>
         </div>
         </section>
+        <section class="mobile-menu">
+            <div class="mobile-menu-toggle">&#9776;</div>
+        <nav class="nav-menu">
+            <ul class="menu-list">
+                <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../pages/aboutme.html">ABOUT ME</a></li>
+                    <li><a href="../pages/projects.html">PROJECTS</a></li>
+                    <li><a href="../pages/services.html">SERVICES</a></li>
+                    <li><a href="../pages/workwithme.html">WORK WITH ME</a></li>
+            </ul>
+        </nav>
+        </section>
     </header>
     <main>
-        <section class="main-page">
+        <section class="main-page-projects" id="scroll-up">
             <article class="main-page-contenedora">
                 <div class="titulo-projects">
                     <h1>PROJECTS</h1>
@@ -39,6 +53,20 @@
                 <div class="arrows-down-white">
                     <img src="../images/fotos projects/arrows down white.svg" alt="arrows white down">
                 </div>
+            </article>
+        </section>
+        <section class="main-page-mobile" id="scroll-up-projects">
+            <article class="projects-container-mobile">
+                <div class="titulo-projects-mobile title-left">
+                    <h1>PRO</h1>
+                </div>
+                <div class="titulo-projects-mobile title-right">
+                    <h1>JECTS</h1>
+                </div>
+                <div class="arrows-down-white2">
+                    <img src="../images/fotos projects/arrows down white.svg" alt="arrows down white">
+                </div>
+
             </article>
         </section>
         <section>
@@ -74,10 +102,42 @@
                 </div>
             </div>
         </section>
+        <section>
+            <div class="projects-categories-mobile">
+                <div class="branding-contenedora-mobile">
+                    <article class="btn-projects1 scroll-button">
+                        <a href="#branding">BRANDING</a>
+                    </article>
+                </div>
+                <div class="editorial-contenedora-mobile">
+                    <article class="btn-projects2 scroll-button">
+                        <a href="#editorial">EDITORIAL DESIGN</a>
+                    </article>
+                </div>
+                <div class="web-design-contenedora-mobile">
+                    <article class="btn-projects1  scroll-button">
+                        <a href="#web-design">WEB DESIGN</a>
+                    </article>
+                </div>
+                <div class="social-media-contenedora-mobile">
+                    <article class="btn-projects2  scroll-button">
+                        <a href="#social-media">SOCIAL MEDIA</a>
+                    </article>
+                </div>
+            </div>
+        </section>
         <section id="branding">
             <div class="titulo2">
                 <img src="../images/fotos projects/branding.svg">
             </div>
+            <article class="click-on-image-container">
+                <div class="click-on-image">
+                    <h3>CLICK ON EACH IMAGE!</h3>
+                </div>
+                <div class="arrows-down-purple-projects">
+                    <img src="../images/fotos projects/arrows down purple.svg" alt="arrows down purple">
+                </div>
+            </article>
             <div class="branding-prjcts-contenedora">
                 <article class="prjcts-branding">
                     <div class="foto-projects branding-grid"> 
@@ -120,11 +180,24 @@
                     <h3>EDITORIAL<br>DESIGN</h3>
                 </article>
             </div>
+            <div class="editorial-titulo-contenedora-mobile">
+                <article class="titulo3 editorial-titulo">
+                    <h3>EDITORIAL<br>DESIGN</h3>
+                </article>
+                <article class="click-on-image-container">
+                <div class="click-on-image click-black-background">
+                    <h3>CLICK ON EACH IMAGE!</h3>
+                </div>
+                <div class="arrows-down-white-editorial">
+                    <img src="../images/fotos projects/arrows down white.svg" alt="arrows down white">
+                </div>
+            </article>
+            </div>
             <div class="editorial-prjcts-contenedora">
                 <div class="editorialprjcts-container1">
                     <article class="prjcts-editorial">
                         <div class="titulo6">
-                            <p>LOREM IPSUM</p>
+                            <p>TOTAL CONSULTING</p>
                         </div>
                         <div class="foto-projects2 total-manual"> 
                             <img src="../images/fotos projects/wetransfer_portfolio-mockups_2023-11-06_1857/total manual mockup.png" alt="foto projects">
@@ -132,7 +205,7 @@
                     </article>
                     <article class="prjcts-editorial">
                         <div class="titulo6">
-                            <p>LOREM IPSUM</p>
+                            <p>DE LETRAS Y COLORES</p>
                         </div>
                         <div class="foto-projects2"> 
                             <img src="../images/fotos projects/wetransfer_serinssa-manual-mockup-png_2023-11-06_1923/DE LETRAS Y COLORES mike perry MOCKUP.jpg" alt="foto projects">
@@ -140,7 +213,7 @@
                     </article>
                     <article class="prjcts-editorial">
                         <div class="titulo6">
-                            <p>LOREM IPSUM</p>
+                            <p>GRUPO SERINSSA</p>
                         </div>
                         <div class="foto-projects2 serinssa-manual"> 
                             <img src="../images/fotos projects/wetransfer_serinssa-manual-mockup-png_2023-11-06_1923/serinssa manual mockup.png" alt="foto projects">
@@ -150,7 +223,7 @@
                 <div class="editorialprjcts-container2">
                     <article class="prjcts-editorial">
                         <div class="titulo9">
-                            <p>LOREM IPSUM</p>
+                            <p>ELEGANCIA MAGAZINE</p>
                         </div>
                         <div class="foto-projects3 editorial-fotos"> 
                             <img src="../images/fotos projects/wetransfer_serinssa-manual-mockup-png_2023-11-06_1923/Revista Elegancia mockup 1.jpg" alt="foto projects">
@@ -158,7 +231,7 @@
                     </article>
                     <article class="prjcts-editorial">
                         <div class="titulo9">
-                            <p>LOREM IPSUM</p>
+                            <p>ARTE VIVIENTE</p>
                         </div>
                         <div class="foto-projects3 editorial-fotos"> 
                             <img src="../images/fotos projects/wetransfer_serinssa-manual-mockup-png_2023-11-06_1923/WARHOL BOOK MOCKUP 6.jpg" alt="foto projects">
@@ -171,11 +244,19 @@
             <div class="titulo2">
                 <img src="../images/fotos projects/web design.svg" alt="web design titulo">
             </div>
+            <article class="click-on-image-container">
+                <div class="click-on-image">
+                    <h3>CLICK ON EACH IMAGE!</h3>
+                </div>
+                <div class="arrows-down-purple-projects">
+                    <img src="../images/fotos projects/arrows down purple.svg" alt="arrows down purple">
+                </div>
+            </article>
             <div class="web-prjcts-contenedora">
                 <div class="web-container1">
                     <article class="prjcts-web">
                         <div class="titulo7">
-                            <p>LOREM IPSUM</p>
+                            <p>DELIKAT</p>
                         </div>
                         <div class="foto-projects web-grid"> 
                             <img src="../images/fotos projects/wetransfer_portfolio-mockups_2023-11-06_1857/delikat mockup.png" alt="foto projects">
@@ -183,7 +264,7 @@
                     </article>
                     <article class="prjcts-web">
                         <div class="titulo7">
-                            <p>LOREM IPSUM</p>
+                            <p>TOTAL CONSULTING</p>
                         </div>
                         <div class="foto-projects web-grid"> 
                             <img src="../images/fotos projects/wetransfer_portfolio-mockups_2023-11-06_1857/delikat mockup.png">
@@ -191,7 +272,7 @@
                     </article>
                     <article class="prjcts-web">
                         <div class="titulo7">
-                            <p>LOREM IPSUM</p>
+                            <p>GEO SOLUCIONES</p>
                         </div>
                         <div class="foto-projects web-grid"> 
                             <img src="../images/fotos projects/wetransfer_portfolio-mockups_2023-11-06_1857/delikat mockup.png" alt="foto projects" alt="foto projects">
@@ -201,7 +282,7 @@
                 <div class="web-container2">
                     <article class="prjcts-web">
                         <div class="titulo7">
-                            <p>LOREM IPSUM</p>
+                            <p>ETEREA COLLECTIVE</p>
                         </div>
                         <div class="foto-projects web-grid"> 
                             <img src="../images/fotos projects/wetransfer_portfolio-mockups_2023-11-06_1857/eterea web mockup.png" alt="foto projects">
@@ -209,7 +290,7 @@
                     </article>
                     <article class="prjcts-web">
                         <div class="titulo7">
-                            <p>LOREM IPSUM</p>
+                            <p>GABRIEL NUÑEZ</p>
                         </div>
                         <div class="foto-projects web-grid"> 
                             <img src="../images/fotos projects/wetransfer_portfolio-mockups_2023-11-06_1857/eterea web mockup.png" alt="foto projects">
@@ -217,7 +298,7 @@
                     </article>
                     <article class="prjcts-web">
                         <div class="titulo7">
-                            <p>LOREM IPSUM</p>
+                            <p>PRISMA</p>
                         </div>
                         <div class="foto-projects web-grid"> 
                             <img src="../images/fotos projects/wetransfer_portfolio-mockups_2023-11-06_1857/eterea web mockup.png" alt="foto projects">
@@ -232,11 +313,19 @@
             <div class="titulo3 socialmedia-titulo">
                 <h3>SOCIAL MEDIA</h3>
             </div>
+            <article class="click-on-image-container">
+                <div class="click-on-image">
+                    <h3>CLICK ON EACH IMAGE!</h3>
+                </div>
+                <div class="arrows-down-purple-projects">
+                    <img src="../images/fotos projects/arrows down purple.svg" alt="arrows down purple">
+                </div>
+            </article>
             <div class="social-prjcts-contenedora">
                 <div class="socialmedia-container1">
                     <article class="prjcts-social">
                         <div class="titulo8">
-                            <p>LOREM IPSUM</p>
+                            <p>ETEREA COLLECTIVE</p>
                         </div>
                         <div class="foto-projects social-grid"> 
                             <img src="../images/fotos projects/wetransfer_portfolio-mockups_2023-11-06_1857/eterea mockup.png" alt="foto projects">
@@ -244,7 +333,7 @@
                     </article>
                     <article class="prjcts-social">
                         <div class="titulo8">
-                            <p>LOREM IPSUM</p>
+                            <p>FRUIT AND SNACK CO.</p>
                         </div>
                         <div class="foto-projects social-grid"> 
                             <img src="../images/fotos projects/wetransfer_portfolio-mockups_2023-11-06_1857/fruit mockup.jpg" alt="foto projects">
@@ -252,7 +341,7 @@
                     </article>
                     <article class="prjcts-social">
                         <div class="titulo8">
-                            <p>LOREM IPSUM</p>
+                            <p>QUANTO</p>
                         </div>
                         <div class="foto-projects social-grid"> 
                             <img src="../images/fotos projects/wetransfer_portfolio-mockups_2023-11-06_1857/quanto mockup.jpg" alt="foto projects">
@@ -262,7 +351,7 @@
                 <div class="socialmedia-container2">
                     <article class="prjcts-social">
                         <div class="titulo8">
-                            <p>LOREM IPSUM</p>
+                            <p>SMART HABITAT</p>
                         </div>
                         <div class="foto-projects social-grid"> 
                             <img src="../images/fotos projects/wetransfer_portfolio-mockups_2023-11-06_1857/social media eterea.png" alt="foto projects">
@@ -270,7 +359,7 @@
                     </article>
                     <article class="prjcts-social">
                         <div class="titulo8">
-                            <p>LOREM IPSUM</p>
+                            <p>GABRIEL NUÑEZ</p>
                         </div>
                         <div class="foto-projects social-grid"> 
                             <img src="../images/fotos projects/wetransfer_portfolio-mockups_2023-11-06_1857/fruit mockup.jpg" alt="foto projects">
@@ -278,7 +367,7 @@
                     </article>
                     <article class="prjcts-social">
                         <div class="titulo8">
-                            <p>LOREM IPSUM</p>
+                            <p>BELINDA LLORT</p>
                         </div>
                         <div class="foto-projects social-grid"> 
                             <img src="../images/fotos projects/wetransfer_portfolio-mockups_2023-11-06_1857/quanto mockup.jpg" alt="foto projects">
@@ -342,7 +431,7 @@
     <footer> <!--pie de pagina-->
         <div id="footer_contenedora">
             <div class="logo-footer"> <!--LOGO-->
-                <a href="index.html">
+                <a href="../index.html">
                     <img src="../images/fotos home/MJ LOGO-03.png" alt="logo">
             </div>
             <nav class="menu-footer-contenedora"> <!--menu//links-->
@@ -372,5 +461,15 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+            var navMenu = document.querySelector('.nav-menu');
+    
+            mobileMenuToggle.addEventListener('click', function () {
+                navMenu.style.display = navMenu.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
 </body>
 </html>

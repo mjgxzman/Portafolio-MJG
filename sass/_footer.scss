@@ -1,0 +1,54 @@
+/*FOOTER*/
+footer{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#footer_contenedora{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    
+}
+
+.menu_footer{
+    text-align: center;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.arrows_footer{
+    color: white;
+}
+
+.logo-footer img{
+    zoom: 0.4;
+}
+
+.logo-footer img:hover{
+    transform: rotate(-20deg);
+}
+
+.scroll_up{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px;
+    letter-spacing: 5px;
+    font-size: smaller;
+    zoom: 0.8;
+}
+
+.container-scroll{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border: solid white;
+    border-width: 1px;
+    padding: 15px;
+    border-radius: 10px;
+}

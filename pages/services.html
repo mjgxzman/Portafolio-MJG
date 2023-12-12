@@ -4,6 +4,8 @@
         <!--se enlaza hoja de estilo-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Hello, I'm Maria Jose Guzman and I'm a graphic designer based in El Salvador. I specialize in projects related to web and editorial design, as well as in branding and social media.">
+        <meta name="keywords" content="graphic design,brand identity, branding, web design, portfolio, social media design, social media content, editorial design, visual communication, website development">
         <title>Maria Jose Guzman</title> 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
         <link rel="stylesheet" href="../css/style.css">
@@ -23,11 +25,23 @@
                     <li><a href="../index.html">HOME</a></li>
                     <li><a href="../pages/aboutme.html">ABOUT ME</a></li>
                     <li><a href="../pages/projects.html">PROJECTS</a></li>
-                    <li><a href="../pages/services.html">SERVICES</a></li>
+                    <li><a href="#services-main">SERVICES</a></li>
                     <li><a href="../pages/workwithme.html">WORK WITH ME</a></li>
                 </ul>
             </nav>
         </div>
+        </section>
+        <section class="mobile-menu">
+            <div class="mobile-menu-toggle">&#9776;</div>
+        <nav class="nav-menu">
+            <ul class="menu-list">
+                <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../pages/aboutme.html">ABOUT ME</a></li>
+                    <li><a href="../pages/projects.html">PROJECTS</a></li>
+                    <li><a href="#services-main">SERVICES</a></li>
+                    <li><a href="../pages/workwithme.html">WORK WITH ME</a></li>
+            </ul>
+        </nav>
         </section>
     </header>
     <main>
@@ -46,14 +60,14 @@
                 </div>
             </article>
         </section>
-        <section>
+        <section class="services-container">
             <div class="services-description-contenedora">
                 <article class="services1">
                     <div class="textos-services">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quam dolorum incidunt exercitationem sint architecto pariatur ipsa sed autem? Omnis molestiae deserunt aliquam vitae fugit doloremque et rerum totam necessitatibus.</p>
+                        <p><strong>Branding</strong> is more than <strong>just a logo</strong> or a color scheme; it's <strong>the essence of your business</strong>,how it looks, feels, and communicates. I'll work closely with you <strong>to understand your story, values, and vision.</strong> Together, we'll create a <strong>unique brand identity</strong> that not only stands out visually but also <strong>resonates with your target audience.</strong> From logos to typography, <strong>every element</strong> will be strategically crafted to<strong> tell your story authentically and consistently across various platforms.</strong></p>
                     </div>
                     <div class="btn-services-contenedora">
-                        <div class="btn-services-image">
+                        <div class="btn-services-image btn-estrella-services">
                             <img src="../images/wetransfer_frame-4-svg_2023-10-28_0032/FIGMA ELEMENTS MJ-02.svg" alt="btn branding">
                         </div>
                         <div class="btn-services-link1">
@@ -63,7 +77,7 @@
                 </article>
                 <article class="services2">
                     <div class="btn-services-contenedora">
-                        <div class="btn-services-image">
+                        <div class="btn-services-image btn-triangulo">
                             <img src="../icons/triangle.svg" alt="btn editorial">
                         </div>
                         <div class="btn-services-link2">
@@ -71,16 +85,16 @@
                         </div>
                     </div>
                     <div class="textos-services">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quam dolorum incidunt exercitationem sint architecto pariatur ipsa sed autem? Omnis molestiae deserunt aliquam vitae fugit doloremque et rerum totam necessitatibus.</p>
+                        <p><strong>Editorial design</strong> is the art of arranging text and images to <strong>communicate your message effectively and aesthetically.</strong> Through a meticulous blend of typography, layout, and imagery, <strong>I create visually engaging publications</strong> that not only captivate your audience but also<strong> enhance the overall reading experience.</strong> Whether it's a magazine, book, brochure, or any printed material,<strong> my editorial design service focuses on striking the right balance between text and visuals, ensuring clarity, coherence, and visual appeal.</strong></p>
                     </div>
                 </article>
                 <article class="services1">
                     <div class="textos-services">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quam dolorum incidunt exercitationem sint architecto pariatur ipsa sed autem? Omnis molestiae deserunt aliquam vitae fugit doloremque et rerum totam necessitatibus.</p>
+                        <p><strong>I create strategically designed posts and stories that tell your brand story effectively.</strong> From eye-catching visuals to cohesive branding elements, each piece is<strong> meticulously created to engage your audience</strong> and enhance your online presence. <strong>I will bring your brand to life on social media,</strong> creating content that not only stands out in feeds but also <strong>resonates with your target audience, ultimately driving engagement and boosting your brand's online impact.</strong></p>
                     </div>
                     <div class="btn-services-contenedora">
-                        <div class="btn-services-image">
-                            <img src="../icons/Rectangle.svg" alt="btn social media">
+                        <div class="btn-services-image btn-cuadrado">
+                            <img src="../icons/Rectangle 2.svg" alt="btn social media">
                         </div>
                         <div class="btn-services-link3">
                             <a href="../pages/projects.html#social-media">SOCIAL<br> MEDIA</a>
@@ -89,7 +103,7 @@
                 </article>
                 <article class="services2">
                     <div class="btn-services-contenedora">
-                        <div class="btn-services-image">
+                        <div class="btn-services-image btn-circulo">
                             <img src="../icons/circle.svg" alt="btn web design">
                         </div>
                         <div class="btn-services-link4">
@@ -97,7 +111,63 @@
                         </div>
                     </div>
                     <div class="textos-services">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quam dolorum incidunt exercitationem sint architecto pariatur ipsa sed autem? Omnis molestiae deserunt aliquam vitae fugit doloremque et rerum totam necessitatibus.</p>
+                        <p><strong>I create visually appealing and user-friendly websites that align with your brand and business goals.</strong> I offer a comprehensive service to bring your online presence to the next level through a <strong>seamless blend of creativity and functionality.</strong> I design and develop visually appealing websites that not only capture your brand essence but also<strong> provide an exceptional user experience.</strong></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="services-mobile-container">
+            <div class="services-description-contenedora">
+                <article class="services1">
+                    <div class="btn-services-contenedora">
+                        <div class="btn-services-image btn-estrella-services">
+                            <img src="../images/wetransfer_frame-4-svg_2023-10-28_0032/FIGMA ELEMENTS MJ-02.svg" alt="btn branding">
+                        </div>
+                        <div class="btn-services-link1 btn-services-mobile">
+                            <a href="../pages/projects.html#branding">BRANDING</a>
+                        </div>
+                    </div>
+                    <div class="textos-services">
+                        <p><strong>Branding</strong> is more than <strong>just a logo</strong> or a color scheme; it's <strong>the essence of your business</strong>,how it looks, feels, and communicates. I'll work closely with you <strong>to understand your story, values, and vision.</strong> Together, we'll create a <strong>unique brand identity</strong> that not only stands out visually but also <strong>resonates with your target audience.</strong> From logos to typography, <strong>every element</strong> will be strategically crafted to<strong> tell your story authentically and consistently across various platforms.</strong></p>
+                    </div>
+                </article>
+                <article class="services2">
+                    <div class="btn-services-contenedora">
+                        <div class="btn-services-image btn-triangulo">
+                            <img src="../icons/triangle.svg" alt="btn editorial">
+                        </div>
+                        <div class="btn-services-link2 btn-services-mobile2">
+                            <a href="../pages/projects.html#editorial">EDITORIAL</a>
+                        </div>
+                    </div>
+                    <div class="textos-services">
+                        <p><strong>Editorial design</strong> is the art of arranging text and images to <strong>communicate your message effectively and aesthetically.</strong> Through a meticulous blend of typography, layout, and imagery, <strong>I create visually engaging publications</strong> that not only captivate your audience but also<strong> enhance the overall reading experience.</strong> Whether it's a magazine, book, brochure, or any printed material,<strong> my editorial design service focuses on striking the right balance between text and visuals, ensuring clarity, coherence, and visual appeal.</strong></p>
+                    </div>
+                </article>
+                <article class="services1">
+                    <div class="btn-services-contenedora">
+                        <div class="btn-services-image btn-cuadrado">
+                            <img src="../icons/Rectangle 2.svg" alt="btn social media">
+                        </div>
+                        <div class="btn-services-link3 btn-services-mobile2">
+                            <a href="../pages/projects.html#social-media">SOCIAL<br> MEDIA</a>
+                        </div>
+                    </div>
+                    <div class="textos-services">
+                        <p><strong>I create strategically designed posts and stories that tell your brand story effectively.</strong> From eye-catching visuals to cohesive branding elements, each piece is<strong> meticulously created to engage your audience</strong> and enhance your online presence. <strong>I will bring your brand to life on social media,</strong> creating content that not only stands out in feeds but also <strong>resonates with your target audience, ultimately driving engagement and boosting your brand's online impact.</strong></p>
+                    </div>
+                </article>
+                <article class="services2">
+                    <div class="btn-services-contenedora">
+                        <div class="btn-services-image btn-circulo">
+                            <img src="../icons/circle.svg" alt="btn web design">
+                        </div>
+                        <div class="btn-services-link4 btn-services-mobile">
+                            <a href="../pages/projects.html#web-design">WEB DESIGN</a>
+                        </div>
+                    </div>
+                    <div class="textos-services">
+                        <p><strong>I create visually appealing and user-friendly websites that align with your brand and business goals.</strong> I offer a comprehensive service to bring your online presence to the next level through a <strong>seamless blend of creativity and functionality.</strong> I design and develop visually appealing websites that not only capture your brand essence but also<strong> provide an exceptional user experience.</strong></p>
                     </div>
                 </article>
             </div>
@@ -157,7 +227,7 @@
     <footer> <!--pie de pagina-->
         <div id="footer_contenedora">
             <div class="logo-footer"> <!--LOGO-->
-                <a href="index.html">
+                <a href="../index.html">
                     <img src="../images/fotos home/MJ LOGO-03.png" alt="logo">
             </div>
             <nav class="menu-footer-contenedora"> <!--menu//links-->
@@ -165,15 +235,15 @@
                     <li><a href="../index.html">HOME</a></li> <!--# sirve para redirigir a tu pagina si aun no hay link-->
                     <li><a href="../pages/aboutme.html">ABOUT ME</a></li>
                     <li><a href="../pages/projects.html">PROJECTS</a></li>
-                    <li><a href="../pages/services.html">SERVICES</a></li>
+                    <li><a href="#service-smain">SERVICES</a></li>
                     <li><a href="../pages/workwithme.html">WORK WITH ME</a></li>
                 </ul>
             </nav>
             <div class="scroll_up">
                 <div class="container-scroll">
-                    <a href="../pages/services.html">scroll up</a>   
+                    <a href="#services-main">scroll up</a>   
                     <div class="arrows_up">
-                        <a href="../pages/services.html"><span class="material-symbols-outlined arrows_footer">
+                        <a href="#services-main"><span class="material-symbols-outlined arrows_footer">
                             arrow_upward_alt
                         </span>
                         <span class="material-symbols-outlined arrows_footer">
@@ -187,5 +257,15 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+            var navMenu = document.querySelector('.nav-menu');
+    
+            mobileMenuToggle.addEventListener('click', function () {
+                navMenu.style.display = navMenu.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
 </body>
 </html>
